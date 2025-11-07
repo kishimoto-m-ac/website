@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
     return {
       // For GitHub Pages deployment, the 'base' property should match the repository name
       // or the subdirectory you want to deploy to.
-      base: '/',
+      base: '/website/',
       server: {
         port: 3000,
         host: '0.0.0.0',
