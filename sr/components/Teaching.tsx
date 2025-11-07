@@ -47,7 +47,7 @@ const Teaching: React.FC<TeachingProps> = ({ id }) => {
           <TeachingItem key={index} item={item} />
         ))}
       </div>
-    </section>
+    </Section>
   );
 };
 
